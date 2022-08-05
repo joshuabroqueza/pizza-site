@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+
+.title {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+}
+
+.singleFood {
+  padding: 15px;
+  text-align: center;
+  width: 350px;
+  background-color: whitesmoke;
+  margin: 20px;
+  height: 300px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.singleFood > img {
+  /* background: #ffffff; */
+}
+
+.singleFood__description {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.foodDescription {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.singleFood > h4 {
+  font-size: 20px;
+  font-family: Averta, sans-serif, sans-serif;
+}
+
+#foodButton {
+  /* background-color: red; */
+  border-radius: 20px;
+  padding: 4px;
+  background-color: rgb(233, 165, 87);
+  color: rgb(34, 27, 27);
+  font-size: medium;
+}
+
+#price {
+  padding: 4px;
+  color: green;
+  font-weight: bolder;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+
+.foodContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: whitesmoke; */
+}
+
+.foodReview {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.foodReviewItems {
+  /* flex-grow: 1; */
+  text-align: center;
+  justify-content: center;
+  font-family: Averta, sans-serif, sans-serif;
+}
+
+.foodReviewItems > p {
+  padding-top: 30px;
+  font-size: 25px;
+  width: 750px;
+}
+
+.foodReviewItems > h3 {
+  font-size: 45px;
+}
+
+.foodReviewItems > img {
+  padding-left: 50px;
+}
+
+footer {
+  /* position: fixed; */
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: whitesmoke;
+  text-align: center;
+}
+
+li {
+  color: #4a4a4a;
+  padding-right: 25px;
+}
+
+footer > ul {
+  list-style: none;
+  /* display: inline; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
